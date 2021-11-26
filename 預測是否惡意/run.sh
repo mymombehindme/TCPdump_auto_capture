@@ -1,5 +1,5 @@
 #! /bin/bash
-rm -f `find csv -type f`2> /dev/null
+rm -f `find csv -type f` 2> /dev/null
 while true
  do
     sleep 2
