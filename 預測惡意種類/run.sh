@@ -2,7 +2,7 @@
 rm -f `find csv -type f`2> /dev/null
 while true
  do
-    sleep 5
+    sleep 2
     touch file.txt
     echo "create file"
     echo -n "./csv/" > file.txt
