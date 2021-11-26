@@ -28,6 +28,7 @@ except:
 # split data into train and test sets
 # X_train, X_test, y_train, y_test = train_test_split(X, Y,test_size=0.5,train_size=0.5)
 model=XGBClassifier()
+model.load_model('malicious.bin')
 start_time = time.time()
 y_pred = model.predict(X)
 # predictions = [round(value) for value in y_pred]
