@@ -36,10 +36,4 @@ $python xgb_classifier.py [所有種類集合的csv] [所有種類集合的attac
 
 //執行xgb分類，程式中使用train_test_split會將所有資料自行分類為測試集與訓練集各1/2，並且將產出的模型存入test_model
 
-$python cat.py [所有種類集合的csv] [所有種類集合的attact_type]//都為字串
 
-//執行cat分類，程式中使用train_test_split會將所有資料自行分類為測試集與訓練集各1/2，並且將產出的模型存入test_model
-
-$python lightBGM.py [所有種類集合的csv] [所有種類集合的attact_type]//都為字串
-
-//執行lightBGM分類，程式中使用train_test_split會將所有資料自行分類為測試集與訓練集各1/2，並且將產出的模型存入test_model
